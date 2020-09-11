@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Anna Grzywa Projects">
+   <meta name="author" content="Anna Grzywa">
+   <link rel="stylesheet" type="text/css" href="css/gameSaper.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title> Gra Saper </title>
+</head>
+
+<body>
+   <header class="header-container">
+      <a href="https://github.com/90AnnaG" target="_blank"><img class="header-container__my-gitHub" alt="GitHub"
+            title="Anna Grzywa GitHub" src="images/github_icon.png"></a>
+      <h1 class="header-container__project-name">Gra Saper</h1>
+   </header>
+
+   <main class="main-container">
+      <h2 class="main-container__project-description">Uważaj na miny!</h2>
+
+      <section class="game-container">
+         <div class="game-container__navi">
+            <span class="navi__move-counter"></span>
+            <img alt="Author OpenClipart-Vectors, Pixabay" title="Restart" src="images/restart.png"
+               class="navi__restart" onclick="generateGrid();">
+            <span class="navi__status"></span>
+         </div>
+         <table class="saper-container"></table>
+      </section>
+
+   </main>
+
+   <footer class="footer">
+      <span class="footer__copyright">Design by Anna Grzywa &copy; 2020</span>
+   </footer>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
