@@ -45,7 +45,7 @@ a {
                 @include move-counter;
             }
 
-            .navi__restart {
+            .navi__restart-button {
                 @include restart-saper;
 
                 &:hover {
@@ -54,8 +54,8 @@ a {
                 }
             }
 
-            .navi__status {
-                @include status;
+            .navi__notification {
+                @include notification;
             }
         }
 
