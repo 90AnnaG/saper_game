@@ -1,5 +1,3 @@
-// need to fix the counter as it should not add points when the cell is already clicked
-
 const grid = document.querySelector('.saper-container');
 const score = document.querySelector('.navi__move-counter');
 const gameResult = document.querySelector('.navi__status');
